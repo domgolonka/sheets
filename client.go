@@ -218,7 +218,7 @@ func (c *Client) UpdateSpreadsheet(ctx context.Context, spreadsheetID string, va
 	url := fmt.Sprintf(spreadsheetValuesURL, spreadsheetID, values.Range)
 
 	q := Query{
-		"valueInputOption":        []string{"RAW"},
+		"valueInputOption":        []string{"USER_DEFINED"},
 		"includeValuesInResponse": []string{"false"},
 	}
 
