@@ -1,4 +1,4 @@
-module github.com/kataras/sheets
+module github.com/domgolonka/sheets
 
 go 1.16
 

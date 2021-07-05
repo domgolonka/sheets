@@ -1,6 +1,6 @@
 # Sheets
 
-[![build status](https://img.shields.io/github/workflow/status/kataras/sheets/CI/master?style=for-the-badge)](https://github.com/kataras/sheets/actions) [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=for-the-badge)](https://goreportcard.com/report/github.com/kataras/sheets) [![godocs](https://img.shields.io/badge/go-%20docs-488AC7.svg?style=for-the-badge)](https://pkg.go.dev/github.com/kataras/sheets)
+[![build status](https://img.shields.io/github/workflow/status/kataras/sheets/CI/master?style=for-the-badge)](https://github.com/domgolonka/sheets/actions) [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=for-the-badge)](https://goreportcard.com/report/github.com/domgolonka/sheets) [![godocs](https://img.shields.io/badge/go-%20docs-488AC7.svg?style=for-the-badge)](https://pkg.go.dev/github.com/domgolonka/sheets)
 
 Lightweight [Google Spreadsheets](https://docs.google.com/spreadsheets) Client written in Go.
 
@@ -11,7 +11,7 @@ This package is under active development and a **work-in-progress** project. You
 The only requirement is the [Go Programming Language](https://golang.org/dl).
 
 ```sh
-$ go get -u github.com/kataras/sheets
+$ go get -u github.com/domgolonka/sheets
 ```
 
 ## Getting Started
@@ -27,7 +27,7 @@ import (
     "context"
     "time"
 
-    "github.com/kataras/sheets"
+    "github.com/domgolonka/sheets"
 )
 
 func main() {
